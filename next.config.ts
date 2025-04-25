@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  basePath: "/hw-app",
+  output: "standalone", // Recommended for easier deployment
 };
 
 export default nextConfig;
